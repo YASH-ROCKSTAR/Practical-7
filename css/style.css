@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url('../assests/fbbd4851a5817e2bfb1d8440ef9111d1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.nav-bar
+{
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+}
+.nav-bar ul{
+    list-style: none;
+    display: inline-flex;
+}
+.nav-bar ul li{
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fa
+{
+    margin-right: 5px;
+    
+}
+.nav-bar ul li:hover{
+    background-color: goldenrod;
+}
+.active
+{
+    background-color: goldenrod;
+}
+.dropdown1
+{
+    display: none;
+
+}
+.nav-bar ul li:hover .dropdown1{
+    display: block;
+    position: absolute;
+    background-color:black;
+    margin-top: 15px;
+    margin-left: -30px;
+}
+.nav-bar ul li:hover .dropdown1 ul{
+    display: block;
+}
+.nav-bar ul li:hover .dropdown1 ul li{
+    background-color: transparent;
+    border-bottom: 1px solid goldenrod;
+}
+.nav-bar ul li:hover .dropdown1 ul li a:hover{
+    color: goldenrod;
+}
+.dropdown2
+{
+    display: none;
+}
+.select:hover .dropdown2
+{
+    display: block;
+    position: absolute;
+    background-color: rgb(50, 50, 50);
+    margin-left: 130px;
+    margin-top: -50px ;
+}
+.fa-plus
+{
+    color: white;
+    margin-left: 3px;
+}
+    
